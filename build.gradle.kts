@@ -69,9 +69,9 @@ micronaut {
         incremental(true)
         annotations("com.efficientsurgicalapps.*")
     }
-    testResources {
-        additionalModules.add("jdbc-postgresql")
-    }
+//    testResources {
+//        additionalModules.add("jdbc-postgresql")
+//    }
 }
 
 
